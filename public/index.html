@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>svelte-component</title>
+    <script src="../dist/index.mjs" type="module"></script>
+  </head>
+  <body>
+    <pg-theme-container secondary="purple">
+      <pg-body-text>
+        Hi there!
+      </pg-body-text>
+    </pg-theme-container>
+
+    <p class="body-text">This has the same class as the body-text web component but the CSS styling doesn't collide.</p>
+  </body>
+  <style>
+    .body-text {
+      padding: 16px;
+      background-color: aliceblue;
+      color: black;
+      font-size: 12px;
+    }
+  </style>
+</html>
