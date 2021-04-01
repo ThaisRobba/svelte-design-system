@@ -33,3 +33,5 @@ They should be exported from the `src/index.js`. This ideally should be automate
 https://javascript.plainenglish.io/can-you-build-web-components-with-svelte-3c8bc3c1cfd8
 
 https://dev.to/silvio/how-to-create-a-web-components-in-svelte-2g4j
+
+https://developers.google.com/web/fundamentals/web-components/best-practices
